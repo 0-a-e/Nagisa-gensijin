@@ -1,4 +1,4 @@
-# Howto Use?
+# How to Use?
 
 ```
 http://[address]?text=今日はミルワームのスパゲティを食べた
@@ -9,4 +9,3 @@ http://[address]?text=今日はミルワームのスパゲティを食べた
 キョウ ミルワーム　スパゲティ　タベタ
 ```
 
-![ゲンシジン]./gensijin.png "ナル")
