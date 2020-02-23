@@ -13,12 +13,9 @@ def index():
         words = nagisa.tagging(text)
         ary = []
         for wwd,wd in enumerate(words.postags):
-             print(wd)
              if wd=="名詞" or wd=="動詞" or wd=="助動詞":
-                 print("selected")
                  ary.append(words.words[wwd])     
              else:
-                 print("unselected")
         strary1 = ','.join(ary)
         strary = strary1.replace(',',' ')
         ap = conv.do(strary)
