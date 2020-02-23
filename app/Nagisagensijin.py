@@ -26,7 +26,7 @@ def index():
         ap = conv.do(strary)
         kakasi.setMode('H','K')
         conv = kakasi.getConverter()
-        return conv.do(ap)
+        return str(conv.do(ap))
     else:
         return "text not found."
 if __name__ == '__main__':

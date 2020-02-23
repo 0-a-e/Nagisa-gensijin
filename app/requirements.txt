@@ -9,13 +9,6 @@ entrypoints==0.3
 flake8==3.7.8
 Flask==1.1.1
 Flask-Cors==3.0.8
-Flask-Sockets==0.2.1
-Flask-WTF==0.14.2
-gevent==1.4.0
-gevent-websocket==0.10.1
-greenlet==0.4.15
-grpcio==1.24.1
-httplib2==0.14.0
 idna==2.8
 isort==4.3.21
 itsdangerous==1.1.0
