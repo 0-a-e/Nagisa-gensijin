@@ -15,7 +15,6 @@ def index():
         for wwd,wd in enumerate(words.postags):
              if wd=="名詞" or wd=="動詞" or wd=="助動詞":
                  ary.append(words.words[wwd])     
-             else:
         strary1 = ','.join(ary)
         strary = strary1.replace(',',' ')
         ap = conv.do(strary)
