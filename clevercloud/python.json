@@ -1,0 +1,8 @@
+{
+    "build": {
+        "folder": "app"
+    },
+    "deploy": {
+        "module": "Nagisagensijin:app",
+        "static": "/clevercloud/static/"
+    }
