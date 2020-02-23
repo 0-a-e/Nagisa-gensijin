@@ -11,8 +11,6 @@ def index():
     text = request.args.get('text')
     if text:
         words = nagisa.tagging(text)
-        print(words.words)
-        print(words.postags)
         ary = []
         for wwd,wd in enumerate(words.postags):
              print(wd)
