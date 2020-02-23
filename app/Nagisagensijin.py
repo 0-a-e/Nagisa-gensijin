@@ -27,8 +27,8 @@ def index():
         kakasi.setMode('H','K')
         conv = kakasi.getConverter()
         return conv.do(ap)
-   else:
-       return "text not found."
+    else:
+        return "text not found."
 if __name__ == '__main__':
     app.run()
 
