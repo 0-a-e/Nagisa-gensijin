@@ -3,6 +3,6 @@
         "folder": "app"
     },
     "deploy": {
-        "module": "Nagisagensijin:app",
+        "module": "cotohaAPIgensijin:app",
         "static": "/clevercloud/static/"
     }
