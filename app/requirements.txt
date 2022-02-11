@@ -21,7 +21,7 @@ mecab-python3==0.996.2
 msgpack==0.6.2
 nagisa==0.2.5
 pox==0.2.7
-protobuf==3.10.0
+protobuf==3.15.0
 pyasn1==0.4.7
 pyasn1-modules==0.2.6
 pycodestyle==2.5.0
